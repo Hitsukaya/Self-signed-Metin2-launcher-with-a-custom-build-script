@@ -1,0 +1,10 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+  </PropertyGroup>
+
+  <Target Name="SignFile" AfterTargets="Build">
+    <Exec Command='signtool sign /f "$(ProjectDir)certificat.pfx" /p nyx123 /tr http://timestamp.digicert.com /td sha256 /fd sha256 "$(TargetPath)"' />
+  </Target>
+</Project>
