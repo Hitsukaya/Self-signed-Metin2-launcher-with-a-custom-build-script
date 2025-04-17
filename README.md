@@ -1,11 +1,11 @@
 # Metin2 Release-Launcher
 
-A custom Metin2 launcher built in C++ and digitally signed using a self-signed certificate.  
-This project includes a batch script for automated build and signing.  
+A custom Metin2 launcher built in C++ and digitally signed using a self-signed certificate.
+This project includes a batch script for automated build and signing.
 Designed to minimize false-positive detections in VirusTotal and avoid SmartScreen blocking in Windows Defender.
 
 ## Build and Sign
-** After setting up the post-build event, run the build process in Visual Studio. The build will complete, and the executable will be signed automatically with the provided self-signed certificate (certificat.pfx), reducing the risk of detection as a false-positive by antivirus software. **
+** After setting up the post-build event, run the process for generate certificate. The build will complete, and the executable will be signed automatically with the provided self-signed certificate (certificat.pfx), reducing the risk of detection as a false-positive by antivirus software. **
 
 ## Features
 
