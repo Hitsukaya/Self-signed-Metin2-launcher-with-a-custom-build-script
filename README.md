@@ -1,4 +1,4 @@
-# Nyx2 Metin2 Launcher
+# Metin2Release-Launcher
 
 A custom Metin2 launcher built in C++ and digitally signed using a self-signed certificate.  
 This project includes a batch script for automated build and signing.  
