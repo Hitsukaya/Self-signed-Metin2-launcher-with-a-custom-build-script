@@ -9,7 +9,7 @@ Designed to minimize false-positive detections in VirusTotal and avoid SmartScre
 
 ## Features
 
-- ✅ Built in C++ (Visual Studio)
+- ✅ Built in C#/C++ (Visual Studio)
 - 🔐 Digitally signed with a self-signed certificate
 - 🛡️ Optimized to reduce false-positive detections
 - 🚀 Ready for public launcher release
